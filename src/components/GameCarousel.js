@@ -8,9 +8,9 @@ const GameCarousel = () => {
   return (
     <div>
      
-     <Carousel fade>
+     <Carousel fade style={{ boxShadow:'0px 10px 25px black, 0 10px 45px blue, 0 10px 40px darkblue' }}>
      {gameData.map(x=>(
-      <Carousel.Item interval={2000}>
+      <Carousel.Item key={x.id} interval={2000}>
         <img
            style={{ maxHeight:'600px',minHeight:'600px', minWidth:'100%', objectFit:'cover'  }}
           className="d-block w-100"

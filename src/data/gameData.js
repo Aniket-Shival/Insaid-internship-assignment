@@ -1,32 +1,63 @@
+import eldenring from './picture/eldenring.webp'
+import sp from './picture/spider.webp'
+import gt from './picture/ghost.webp'
+import cod from './picture/cod.webp'
+import g5 from './picture/gta.webp'
+
 export const gameData = [
-    {
+    {    
+        'id':'1',
         'name' : 'Elden Ring',
-        'image':'https://cdn.mos.cms.futurecdn.net/nWyXV2kfzU5DcYeR2nJZTL.jpg',
+        'image': eldenring,
         'platforms': 'PlayStation 5, PlayStation 4, Xbox Series X and Series S, Xbox One, Microsoft Windows',
-        'genres': 'Action role-playing game, Adventure game, Fighting game, Platform game'
+        'genres': 'Action role-playing game, Adventure game, Fighting game, Platform game',
+        'price':'500',
+        'ign':'5',
+        'mc':'94%',
+        'summary':"Elden Ring is a massive iteration on what FromSoftware began with the Souls series, bringing its relentlessly challenging combat to an incredible open world that gives us the freedom to choose our own path.",
     },
-    {
+    {    
+        'id':'2',
         'name' : "Marvel's Spider-Man: Miles Morales",
-        'image':'https://cdn.wccftech.com/wp-content/uploads/2020/11/spider-man-miles-morales-update-ps5-ps4-scaled.jpg',
+        'image':sp,
         'platforms': '	 PlayStation 4,PlayStation 5, Windows',
-        'genres': '	Action-adventure'
+        'genres': '	Action-adventure',
+        'price':'400',
+        'ign':'4.5',
+        'mc':'85%',
+        'summary':"Building on and expanding the Spider-Man saga, Marvel's Spider-Man: Miles Morales has players experiencing the rise of Miles Morales as he masters new powers to become his own Spider-Man.",
     },
-    {
+    {    
+        'id':'3',
         'name' : "Ghost of Tsushima",
-        'image':'https://free4kwallpapers.com/uploads/originals/2022/09/01/ghost-of-tsushima-wallpaper.jpg',
+        'image':gt,
         'platforms': '	 PlayStation 4,PlayStation 5',
-        'genres': '	Action-adventure'
+        'genres': '	Action-adventure',
+        'price':'370',
+        'ign':'4.5',
+        'mc':'83%',
+        'summary':"Ghost of Tsushima is an excellent action game and its open world is one of the most gorgeous yet.",
     },
-    {
+    {    
+        'id':'4',
         'name' : "Call of Duty: Modern Warfare II ",
-        'image':'https://images.hdqwalls.com/wallpapers/call-of-duty-modern-warfare-2-campaign-remastered-4k-vw.jpg',
+        'image':cod,
         'platforms': 'PlayStation 5, PlayStation 4, Xbox Series X and Series S, Xbox One, Microsoft Windows',
-        'genres': '		First-person shooter'
+        'genres': '		First-person shooter',
+        'price':'350',
+        'ign':'3.5',
+        'mc':'79%',
+        'summary':"Much of Modern Warfare 2 has aged pretty well, and the remaster is very well-done, but the 2019 reboot casts a shadow.",
     },
-    {
+    {    
+        'id':'5',
         'name' : "GTA 5 ",
-        'image':'https://wallpaperaccess.com/full/707055.jpg',
+        'image':g5,
         'platforms': ' PlayStation 3,Xbox 360, PlayStation 4, Xbox One, Windows, PlayStation 5, Xbox Series X/S',
-        'genres': '	Action-adventure'
+        'genres': '	Action-adventure',
+        'price':'250',
+        'ign':'5',
+        'mc':'96%',
+        'summary':"Preposterously enjoyable, breathtaking in scope and bitingly funny, GTA V is a landmark game.",
     },
   ]

@@ -10,8 +10,7 @@ const Home = () => {
         <NavigationBar/>
         <GameCarousel/>
         <ShopName/>
-        <GameCards/>
-       
+        <GameCards/>     
     </div>
   )
 }

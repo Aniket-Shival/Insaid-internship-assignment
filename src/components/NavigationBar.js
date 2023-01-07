@@ -23,6 +23,7 @@ const NavigationBar = () => {
           <Nav className="me-auto">
           <Link className='nav-link mx-3'   style={{ textDecoration:'none', color:'white', fontWeight:'bold' }} onMouseOver={hoverFunc} onMouseLeave={removeFunc} to='/'>Home</Link>
           <Link className='nav-link mx-3'  style={{ textDecoration:'none', color:'white',fontWeight:'bold' }}  onMouseOver={hoverFunc} onMouseLeave={removeFunc} to='/contact'>Contact</Link>
+          <Link className='nav-link mx-3'  style={{ textDecoration:'none', color:'white',fontWeight:'bold' }}  onMouseOver={hoverFunc} onMouseLeave={removeFunc} to='/cart'>Cart</Link>
           </Nav>
         </Navbar.Collapse>
       
