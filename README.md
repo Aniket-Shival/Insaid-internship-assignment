@@ -1,3 +1,6 @@
+v2 of the website is deployed, to view the live website visit https://aniketgs.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
