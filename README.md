@@ -10,7 +10,7 @@ The website consists of 4 pages i.e.
 
 The website, being a game shop was made in order to attract attention of potential buyers i.e. Gamers who land on the website. The first thing we see on the website is a carousel of all the games availale in the shop. The carousel changes images in quick intervals in order to attract attention and also show more games to the buyers.
 
-Home page was decorated with blue glow from the edges of images which mimic RGB lights that gamers use with their gaming setup.
+Home page was decorated with blue glow from the edges of images which mimics RGB lights that gamers use with their gaming setup.
 
 Bootstrap was used for making the website responsive as it takes away a large chunk of work needed for the task.
 
