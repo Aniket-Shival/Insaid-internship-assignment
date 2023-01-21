@@ -15,9 +15,9 @@ Home page was decorated with blue glow from the edges of images which mimics RGB
 Bootstrap was used for making the website responsive as it takes away a large chunk of work needed for the task.
 
 To avoid repeating code I did the following:
-1.Reusing components like navigation bar .
-2.Creating an array of all the data(game data), then mapped it on the components instead of creating the same component with diffrent data multiple times.
-3.React was used to make the website more snappier and feel more appealing.
+1. Reusing components like navigation bar .
+2. Creating an array of all the data(game data), then mapped it on the components instead of creating the same component with diffrent data multiple times.
+3. React was used to make the website more snappier and feel more appealing.
 
 
 ####################################
