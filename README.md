@@ -1,5 +1,25 @@
 v2 of the website is deployed, to view the live website visit https://aniketgs.netlify.app
 
+The technologies used in the website are HTML, CSS, Javascript, Bootstrap, React.js & Redux.
+
+The website consists of 4 pages i.e.
+* Home page with all the general detail about the shop and catalog of games we can buy. We can add items to cart and view thier details from here.
+* Details page consists of more details of the specific game we selected.
+* Contact page consists of details like address, contact information, etc. There is also a form to directly contact the shop for queries.
+* Cart page consists of all the items added to cart with their total price. We can proceed to buy or empty the cart from here.
+
+The website, being a game shop was made in order to attract attention of potential buyers who land on the website. The first thing we see on the website is a carousel of all the games availale in the shop. The carousel changes images in quick intervals in order to attract attention and also show more games to the buyers. After that, there is a brief introduction about the shop followed by all the games available along with their genres and platforms it supports.
+
+Bootstrap was used for making the website responsive as it takes away a large chunk of work needed for the task.
+
+To avoid coding repeating code I did the following:
+1. Reusing components like navigation bar .
+2. Creating an array of all the data(game data), than mapped it on the components instead of creating the same component with diffrent data multiple times. 
+3. React was used to make the website more snappier and feel more appealing.
+
+
+####################################
+
 
 # Getting Started with Create React App
 
